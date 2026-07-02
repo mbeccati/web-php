@@ -6062,6 +6062,18 @@ changelog_header(8, $MINOR_VERSIONS);
 
 <a id="PHP_8_2"></a>
 
+<section class="version" id="8.2.32"><!-- {{{ 8.2.32 -->
+<h3>Version 8.2.32</h3>
+<b><?php release_date('02-Jul-2026'); ?></b>
+<ul><li>OpenSSL:
+<ul>
+  <li>Fixed bug <?php githubissuel('php/php-src', 22187); ?> (Memory corruption (zend_mm_heap corrupted) in openssl_encrypt with AES-WRAP-PAD).</li>
+</ul></li>
+</ul>
+<!-- }}} --></section>
+
+
+
 <section class="version" id="8.2.31"><!-- {{{ 8.2.31 -->
 <h3>Version 8.2.31</h3>
 <b><?php release_date('07-May-2026'); ?></b>
