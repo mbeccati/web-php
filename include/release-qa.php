@@ -96,6 +96,19 @@ $QA_RELEASES = [
             'baseurl'    => 'https://downloads.php.net/~daniels/',
         ],
     ],
+
+    '8.6.0' => [
+        'active'  => true,
+        'release' => [
+            'type'       => 'alpha',
+            'number'     => 1,
+            'sha256_bz2' => 'c4f1733b93f3c0d7fcfe381bdafc28daf283bac42441a2809645897b1f557a1a',
+            'sha256_gz'  => '253d9ff1f03bd17ddf0aaed423b59a37d8f9567858df44d30d3c42c14301a7ab',
+            'sha256_xz'  => '2d4cba8e5511b026b0c786c69b3272fe53dc8643f086cd10fc0e902c20a1757c',
+            'date'       => '2 July 2026',
+            'baseurl'    => 'https://downloads.php.net/~mbeccati/',
+        ],
+    ],
 ];
 
 /*** End Configuration *******************************************************************/
