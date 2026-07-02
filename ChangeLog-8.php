@@ -3353,6 +3353,22 @@ changelog_header(8, $MINOR_VERSIONS);
 
 <a id="PHP_8_3"></a>
 
+<section class="version" id="8.3.32"><!-- {{{ 8.3.32 -->
+<h3>Version 8.3.32</h3>
+<b><?php release_date('02-Jul-2026'); ?></b>
+<ul><li>Streams:
+<ul>
+  <li>Fixed bug <?php githubissuel('php/php-src', 21468); ?> (Segfault in file_get_contents w/ a https URL and a proxy set). (CVE-2026-12184)</li>
+</ul></li>
+<li>OpenSSL:
+<ul>
+  <li>Fixed bug <?php githubissuel('php/php-src', 22187); ?> (Memory corruption (zend_mm_heap corrupted) in openssl_encrypt with AES-WRAP-PAD). (CVE-2026-14355)</li>
+</ul></li>
+</ul>
+<!-- }}} --></section>
+
+
+
 <section class="version" id="8.3.31"><!-- {{{ 8.3.31 -->
 <h3>Version 8.3.31</h3>
 <b><?php release_date('07-May-2026'); ?></b>
