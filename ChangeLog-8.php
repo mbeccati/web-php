@@ -6067,7 +6067,7 @@ changelog_header(8, $MINOR_VERSIONS);
 <b><?php release_date('02-Jul-2026'); ?></b>
 <ul><li>OpenSSL:
 <ul>
-  <li>Fixed bug <?php githubissuel('php/php-src', 22187); ?> (Memory corruption (zend_mm_heap corrupted) in openssl_encrypt with AES-WRAP-PAD).</li>
+  <li>Fixed bug <?php githubissuel('php/php-src', 22187); ?> (Memory corruption (zend_mm_heap corrupted) in openssl_encrypt with AES-WRAP-PAD). (CVE-2026-14355)</li>
 </ul></li>
 </ul>
 <!-- }}} --></section>
